@@ -1,0 +1,112 @@
+body{
+    background-color: #FED9B3 !important;
+    overflow-x: hidden;
+}
+nav.navbar.navbar-expand-lg.bg-body-tertiary.navCus{
+ background-color: #FED9B3 !important;
+ /* position: fixed !important; */
+
+}
+
+
+#navbarNavDropdown{
+
+    justify-content: end !important;
+
+}
+
+
+
+/* call for photo */
+.callforphoto{
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background-color:#C89665;
+}
+
+
+.preface{
+    margin-top: 40px;
+   
+}
+.prefaceButton{
+    padding-right: 95% !important;
+    background: none !important;
+    text-decoration: none !important;
+    color: red !important ;
+  
+        outline: none !important;
+        box-shadow: none !important; 
+}
+.eventfbpageimg{
+    margin-top: 40px;
+}
+.eventfbpagebtn{
+    background-color:#FED9B3 !important;
+    color: black !important;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-right: 83.5% !important;
+    text-align: center !important;
+}
+
+.eligibility{
+    margin-top: 40px;
+   
+}
+.eligibility{
+    padding-right: 84% !important;
+    background: none !important;
+    text-decoration: none !important;
+    color: red !important ;
+  
+        outline: none !important;
+        box-shadow: none !important; 
+}
+.eligibilitycardbody{
+    background-color: #FED9B3 !important;
+    border-color: none !important;
+}
+
+.singlephotobutton{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+
+}
+
+.singlephotobutton a{
+    color: black;
+    text-decoration: none !important;
+    border: 2px;
+    border-style: solid;
+border-color: rgb(0, 0, 0);
+padding-left: 30% ;
+padding-right: 30%;
+
+}
+
+.iconBuet{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.AboutBUETPS{
+    background-color: #C89665;
+    padding-top: 3%;
+    padding-bottom: 3%;
+}
+.imagecarousel{
+  margin-top: 20px !important;
+  margin-bottom: 20px !important;
+   
+   
+}
+.caroImgBtmTxt{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+}
+
