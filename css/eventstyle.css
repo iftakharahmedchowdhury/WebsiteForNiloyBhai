@@ -118,13 +118,25 @@ body{
    
   }
   @media (max-width: 952px){
+    .ourevent{
+ 
+  
+      background-position: right center;
+       background-image: url(../images/Ourevent02.jpg); 
+       background-size: cover; 
+       padding-bottom: 60%;
+       transform: translate3d(0px, 0px, 0px);
+  
+  
+    }
+
     .oureventHeader{
         text-align: end;
         color: white;
         margin: 0;
        
         position: absolute;
-        top: 30%;
+        top: 80%;
         left: 40%;
         
        
