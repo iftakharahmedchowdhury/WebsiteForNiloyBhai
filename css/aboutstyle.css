@@ -1,15 +1,21 @@
 
 body{
     font-family: montserrat;
-    background: #FFE6CF !important;
+    background: #000000 !important;
+  }
+  .titleTextColor{
+    color: red !important;
+  }
+  .textColorp{
+    color: lightgray !important;
   }
   nav{
-    background: #FED9B3;
+    background: lightgray;
     height: 80px;
     width: 100%;
   }
   label.logo{
-    color: black;
+    color: rgb(255, 0, 0);
     font-size: 35px;
     line-height: 80px;
     padding: 0 100px;
@@ -32,7 +38,14 @@ body{
     text-decoration: none !important;
   }
   nav ul li a:hover{
-    color: rgb(209, 118, 21);
+    color: rgb(255, 0, 0);
+  }
+  nav ul li a:hover{
+    color: rgb(255, 0, 0);
+  }
+  .fa-bars{
+    color:rgb(0, 0, 0) !important;
+    
   }
   /* a.active,a:hover{
     background: #1b9bff;
@@ -67,7 +80,7 @@ body{
       position: fixed;
       width: 100%;
       height: 100vh;
-      background: #2c3e50;
+      background: #000000;
       top: 80px;
       left: -100%;
       text-align: center;
@@ -148,3 +161,21 @@ body{
         margin-bottom: 40px;
       }
   }
+
+
+  @media only screen and (max-width: 600px) {
+    .conUsA{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+  }
+  
+  @media only screen and (max-width: 600px) {
+    .conUsB{
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+    }
+  }
+  
