@@ -7,12 +7,12 @@ body{
     overflow-x: hidden;
 }
 nav{
-    background: lightgray;
+    background: rgb(255, 255, 255);
     height: 80px;
     width: 100%;
   }
   label.logo{
-    color: rgb(255, 0, 0);
+    color: rgb(216, 0, 0);
     font-size: 35px;
     line-height: 80px;
     padding: 0 100px;
@@ -35,12 +35,21 @@ nav{
     text-decoration: none !important;
   }
   nav ul li a:hover{
-    color: rgb(255, 0, 0);
+    color: rgb(216, 0, 0);
   }
   .fa-bars{
     color:rgb(0, 0, 0) !important;
     
   }
+ .card-body-custom{
+  background-color: rgb(0, 0, 0) !important;
+  border: 1px solid rgb(216, 4, 4) !important;
+  
+  
+ }
+ .card-title-custom{
+  color:rgb(216, 0, 0) !important;
+ }
   /* a.active,a:hover{
     background: #1b9bff;
     transition: .5s;
@@ -74,7 +83,7 @@ nav{
       position: fixed;
       width: 100%;
       height: 100vh;
-      background: #000000;
+      background: #0c0c0cef;
       top: 80px;
       left: -100%;
       text-align: center;
@@ -122,7 +131,7 @@ nav.navbar.navbar-expand-lg.bg-body-tertiary.navCus{
 }
 
 .titleTextColor{
-  color: red !important;
+  color: rgb(216, 0, 0) !important;
 }
 .textColorp{
   color: lightgray !important;
@@ -135,7 +144,7 @@ nav.navbar.navbar-expand-lg.bg-body-tertiary.navCus{
   color:lightgray;
 }
 .singleText{
-  color: rgb(255, 0, 0) !important;
+  color: rgb(216, 0, 0) !important;
   border-color:lightgray !important;
 }
 .btn-info{
@@ -145,7 +154,7 @@ nav.navbar.navbar-expand-lg.bg-body-tertiary.navCus{
     padding-right: 95% !important;
     background: none !important;
     text-decoration: none !important;
-    color: red !important ;
+    color: rgb(216, 0, 0) !important ;
   
         outline: none !important;
         box-shadow: none !important; 
@@ -155,7 +164,7 @@ nav.navbar.navbar-expand-lg.bg-body-tertiary.navCus{
         padding-right: 75% !important;
         background: none !important;
         text-decoration: none !important;
-        color: red !important ;
+        color: rgb(216, 0, 0) !important ;
       
             outline: none !important;
             box-shadow: none !important; 
@@ -191,7 +200,7 @@ nav.navbar.navbar-expand-lg.bg-body-tertiary.navCus{
     padding-right: 84% !important;
     background: none !important;
     text-decoration: none !important;
-    color: red !important ;
+    color: rgb(216, 0, 0) !important ;
   
         outline: none !important;
         box-shadow: none !important; 
@@ -201,7 +210,7 @@ nav.navbar.navbar-expand-lg.bg-body-tertiary.navCus{
         padding-right: 44% !important;
         background: none !important;
         text-decoration: none !important;
-        color: red !important ;
+        color: rgb(216, 0, 0) !important ;
       
             outline: none !important;
             box-shadow: none !important; 
@@ -276,4 +285,10 @@ padding-right: 30%;
   }
 }
 
+.contactus{
+  
+  border-top:1px solid rgb(216, 0, 0)  ;
+  margin-bottom: 2%;
 
+ 
+}
